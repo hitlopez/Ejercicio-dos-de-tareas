@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main{
+  width: 60%;
+  margin: auto;
+  padding: 1em 8vw;
+  background: white;
+  box-shadow:  0 0 20px #ddd;
+}
+
+h1{
+  text-align: center;
+  color: #1F5F74;
+  border-bottom: 1px solid #C4CBCE;
+  padding-bottom: .2em;
+}
+
+
+
+input{
+  margin-left: 30px;
+  padding: 8px 20px;
+  width: 60%;
+  border: 1px solid #AAA;
+  border-radius: 3px;
+}
+
+
+button{
+  padding: 5px 8px;
+  margin: 10px;
+  border: 1px solid darkgreen;
+  width: 15%;
+  border: transparent;
+  background: #36551F;
+  color: white;
+  border-radius: 3px;
+}
+
+.btnEdit{
+  background: #1F5F74;
+  border: transparent;
+  font-weight: 500;
+  cursor: pointer;  
+}
+.btnRemove{
+  background: red;
+  border: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover{
+  width: 16%;
+}
